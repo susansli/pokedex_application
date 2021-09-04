@@ -253,16 +253,18 @@ def smogon_res(pokemon: dict) -> str:
     :postcondition: if data is incomplete, display it as incomplete
     :return: a formatted string with all the Pokemon's competitive information
     """
-    sm_ability = list(pokemon["abilities"].keys())[0]
-    sm_moves = ", ".join(list(pokemon["moves"].keys())[0:4])
-    sm_item = list(pokemon["items"].keys())[0]
-    sm_ev = get_ev(pokemon)
-    if len(sm_ability) and len(sm_moves) and len(sm_item) and len(sm_ev) > 0:
-        formatted_str = "Ability: %s \nMoveset: %s \nItem: %s \nSpread: %s" \
-                    % (sm_ability, sm_moves, sm_item, sm_ev)
-    else:
-        formatted_str = "Incomplete competitive information for this Pokémon."
-    return formatted_str
+    try:
+        sm_ability = list(pokemon["abilities"].keys())[0]
+        sm_moves = ", ".join(list(pokemon["moves"].keys())[0:4])
+        sm_item = list(pokemon["items"].keys())[0]
+        sm_ev = get_ev(pokemon)
+        if len(sm_ability) and len(sm_moves) and len(sm_item) and len(sm_ev) > 0:
+            return "Ability: %s \nMoveset: %s \nItem: %s \nSpread: %s" \
+                        % (sm_ability, sm_moves, sm_item, sm_ev)
+        else:
+            return "Incomplete competitive information for this Pokémon."
+    except IndexError:
+        return "Incomplete competitive information for this Pokémon."
 
 
 def get_ev(pokemon: dict) -> str:
