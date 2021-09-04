@@ -10,7 +10,7 @@ I always find myself scrolling through Bulbapedia and Smogon endlessly whenever 
 
 Simply boot up pokedex_application_launcher.exe! Do not delete the icon or background files please.
 
-I've also included the working Python file in the .zip directory.
+I've also included the working Python file in the python_file directory.
 
 ### APIs Used
 
