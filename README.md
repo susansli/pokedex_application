@@ -41,4 +41,4 @@ The Pokéball graphic used in the icon and background are free use from Freepik.
 - There are some sprites with minor graphical issues (such as a white background), but this is very minor; similarly, some sprites may be missing front or back views.
 - In order to search up Pokémon with different forms, enter it in name-form format, eg. Aegislash-blade.
 - Some missing entries or incorrect data for Sword and Shield Pokémon.
-- The initial (and only the initial) fetch may be slower than normal, please be a little patient. This is an issue with the Heroku server that is hosting the Smogon API, and not an issue with the application.
+- The initial (and only the initial) fetch may be slower than normal, please be a little patient. **This is an issue with the Heroku server that is hosting the Smogon API, and not an issue with the application.**
