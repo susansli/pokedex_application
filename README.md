@@ -12,7 +12,7 @@ Simply boot up pokedex_application_launcher.exe! Do not delete the icon or backg
 
 I've also included the working Python file in the python_file directory.
 
-### APIs Used
+### Endpoints
 
 1) PokeAPI: https://pokeapi.co/
 
@@ -25,6 +25,11 @@ This API was used to obtain stats for Gen 8 OU recommendations (that is, the mos
 ### Assets
 
 The Pokéball graphic used in the icon and background are free use from Freepik.
+
+### Future Plans
+
+- Include informaiton (perhaps map graphics) of encounter areas in main game series
+- Include Pokémon Reborn specific information
 
 ### Notes
 
