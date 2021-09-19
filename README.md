@@ -32,8 +32,8 @@ The Pokéball graphic used in the icon and background are free use from Freepik.
 ### Future Plans
 ---
 
-- Include informaiton (perhaps map graphics) of encounter areas in main game series
-- Include Pokémon Reborn specific information
+- Include information (perhaps map graphics) of encounter areas in main game series
+- Include Pokémon Reborn specific information, if possible
 
 ### Notes
 ---
